@@ -12,7 +12,17 @@ exports.canModifyQueue = (member) => {
 let config;
 
 try {
-  config = require("../config.json");
+  config = {
+    "TOKEN": "ODg0OTU2NzE5NDA5NjgwMzg0.YTgCKw.merJgrce5Q7yo_arhJxa_zz3s8g",
+    "YOUTUBE_API_KEY": "AIzaSyCAOcVADG7v7DpoSKfnz_BqfWEhKEebPw4",
+    "SOUNDCLOUD_CLIENT_ID": "",
+    "MAX_PLAYLIST_SIZE": 100,
+    "PREFIX": "@",
+    "PRUNING": true,
+    "LOCALE": "ko",
+    "STAY_TIME": 30,
+    "DEFAULT_VOLUME": 100
+  }
 } catch (error) {
   config = null;
 }

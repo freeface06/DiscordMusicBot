@@ -100,6 +100,16 @@
             "name" : "list20",
             "nickname" : "따뜻한 위로가 담긴 국내 힙합",
             "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9THfw4juR4P_TeqxmFTfXrk&feature=share"
+        },
+        {
+            "name" : "list21",
+            "nickname" : "Presenting AKMU (악동뮤지션)",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9QkaR5EttemRXKyamQ0klQJ&feature=share"
+        },
+        {
+            "name" : "list22",
+            "nickname" : "꽃보다 봄 발라드",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9TAYo5WzFnRzKqwBEKPIR-3&feature=share"
         }
     ]
 }
