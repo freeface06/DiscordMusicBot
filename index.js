@@ -85,3 +85,19 @@ client.on("message", async (message) => {
     message.reply(i18n.__("common.errorCommand")).catch(console.error);
   }
 });
+
+client.on("voiceStateUpdate", function(newMember){
+  const q = client.queue.get(newMember.guild.id);
+  if (!q){
+    return;
+  }else {
+    var keys = q.channel.members.keys();
+  
+    if(q.channel.members.size === 1){
+      if(q.channel.members.get(keys.next().value).user.bot){
+        q.songs = [];
+        q.connection.dispatcher.end();
+      }
+    }
+  }
+});

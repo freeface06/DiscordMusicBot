@@ -6,6 +6,9 @@ const scdl = require("soundcloud-downloader").default;
 const { YOUTUBE_API_KEY, SOUNDCLOUD_CLIENT_ID, MAX_PLAYLIST_SIZE, DEFAULT_VOLUME } = require("../util/Util");
 const youtube = new YouTubeAPI(YOUTUBE_API_KEY);
 
+const json = require("../list.json");
+const list = json.data;
+
 module.exports = {
   name: "playlist",
   cooldown: 5,
@@ -32,15 +35,23 @@ module.exports = {
 
     const search = args.join(" ");
     const pattern = /^.*(youtu.be\/|list=)([^#\&\?]*).*/gi;
-    const url = args[0];
-    const urlValid = pattern.test(args[0]);
+    var url = args[0];
+    var urlValid = pattern.test(args[0]);
+
+    for(var i = 0; i < list.length; i++){
+      if(list[i].name == search){
+        urlValid = true;
+        url = list[i].url
+        break;
+      }
+    }
 
     const queueConstruct = {
       textChannel: message.channel,
       channel,
       connection: null,
       songs: [],
-      loop: false,
+      loop: true,
       volume: DEFAULT_VOLUME,
       playing: true
     };
@@ -86,7 +97,7 @@ module.exports = {
           duration: video.durationSeconds
         });
       });
-
+     
     serverQueue ? serverQueue.songs.push(...newSongs) : queueConstruct.songs.push(...newSongs);
 
     let playlistEmbed = new MessageEmbed()

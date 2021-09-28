@@ -6,6 +6,7 @@ const i18n = require("../util/i18n");
 
 module.exports = {
   name: "search",
+  aliases: ["se"],
   description: i18n.__("search.description"),
   async execute(message, args) {
     if (!args.length)

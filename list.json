@@ -1,0 +1,105 @@
+{
+    "data":
+    [
+        {
+            "name" : "list1",
+            "nickname" : "한국 인기곡 Top100 (실시간)",
+            "url": "https://music.youtube.com/playlist?list=PL4fGSI1pDJn6jXS_Tv_N9B8Z0HTRVJE0m&feature=share"
+        },
+        {
+            "name" : "list2",
+            "nickname" : "한국 인기 뮤직비디오 Top100 (실시간)",
+            "url": "https://music.youtube.com/playlist?list=PL4fGSI1pDJn5S09aId3dUGp40ygUqmPGc&feature=share"
+        }, 
+        {
+            "name" : "list3",
+            "nickname" : "한국 인기 급상승 동영상 20 (실시간)",
+            "url": "https://music.youtube.com/playlist?list=PLmtapKaZsgZsjfcjrumAR4KVu5LDDeugN&feature=share"
+        }, 
+        {
+            "name" : "list4",
+            "nickname" : "미국 인기곡 Top100 (실시간)",
+            "url": "https://music.youtube.com/playlist?list=PL4fGSI1pDJn6O1LS0XSdF3RyO0Rq_LDeI&feature=share"
+        }, 
+        {
+            "name" : "list5",
+            "nickname" : "고막여친이 불러주는 국내 발라드",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9REtUF8v7pHwj5rJV6K7cRP&feature=share"
+        }, 
+        {
+            "name" : "list6",
+            "nickname" : "아이유 노래모음",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9SAX-RpDlSpzifVb3_stKNJ&feature=share"
+        },
+        {
+            "name" : "list7",
+            "nickname" : "명장면이 떠오르는 국내 드라마 OST",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9QmJwYzGlxpywAKYO14qXho&feature=share"
+        },
+        {
+            "name" : "list8",
+            "nickname" : "지난 10년을 불태운 EDM",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9QArU1RMb2PInYHtYtsgqaG&feature=share"
+        },
+        {
+            "name" : "list9",
+            "nickname" : "꿈 같은 국내 인디음악",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9SXOAvh-QIpg6IuTQ3Qztdf&feature=share"
+        },
+        {
+            "name" : "list10",
+            "nickname" : "스웨그 온: 인기 국내 힙합/랩",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9TSUeefHdmnqGFjiA_pRWyj&feature=share"
+        },
+        {
+            "name" : "list11",
+            "nickname" : "고성방가 유발 팝 히트곡",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9ReEMZaCzWsony0atiBp6Xr&feature=share"
+        },
+        {
+            "name" : "list12",
+            "nickname" : "팝 핫리스트",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9SMXXbJxdkywCYq-majm1PV&feature=share"
+        },
+        {
+            "name" : "list13",
+            "nickname" : "부드러운 한국 발라드/인디",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9RDO7zSDFPSVkvhODRKEdRt&feature=share"
+        },
+        {
+            "name" : "list14",
+            "nickname" : "2010년대 국내 R&B 베스트",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9TR94qeRaOsneGuK737pg9G&feature=share"
+        },
+        {
+            "name" : "list15",
+            "nickname" : "잔잔한 밤 드라이빙 발라드 / R&B",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9Tp75OCq_EHxAfomsxgwhEA&feature=share"
+        }, 
+        {
+            "name" : "list16",
+            "nickname" : "죽기전에들어야할팝송(레전드팝송추천)",
+            "url": "https://music.youtube.com/playlist?list=PLCjutm_d0-KZJv5WQNVJABiwmZz_IqtB9&feature=share"
+        }, 
+        {
+            "name" : "list17",
+            "nickname" : "비긴어게인 태연 영상 모음",
+            "url": "https://music.youtube.com/playlist?list=PLExpaUwl4dZWyOdB-Wfjs1YD6xtGes7Kr&feature=share"
+        }, 
+        {
+            "name" : "list18",
+            "nickname" : "나를 위로해주는 힐링가요",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9TW62oWn9zLni79NCX_0v1G&feature=share"
+        }, 
+        {
+            "name" : "list19",
+            "nickname" : "추억의 미니홈피 BGM 베스트",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9QnjEK_ucbEbcW1DsFfPx8X&feature=share"
+        },
+        {
+            "name" : "list20",
+            "nickname" : "따뜻한 위로가 담긴 국내 힙합",
+            "url": "https://music.youtube.com/playlist?list=PLuxq2cM3U_9THfw4juR4P_TeqxmFTfXrk&feature=share"
+        }
+    ]
+}
